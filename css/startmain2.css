@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+
+/* -----------------------all --------------------------------- */
+
+body{
+		margin: 0;
+		padding: 0;
+		font-family: 'Arimo', sans-serif; 
+	}	
+	
+	ul{
+		list-style: none;
+	}
+
+	a{
+		text-decoration: none;
+	}
+/*---------------------- top----------------------------------- */
+
+	#top{
+		position: absolute;
+		width: 100%;
+		height: 400px;	
+	}
+	
+	#back img{
+		position: absolute;
+		width: 100%;
+		height: 400px;
+		
+	}
+	
+	#back2{
+		position: absolute;
+		width: 100%;
+		height: 400px;
+		background-color: black;
+		opacity: 0.6;
+	}
+	#content{
+		position: absolute;
+		left: 50%; 
+		transform:translate(-50%, 0%);
+		width: 80%;
+		height: 400px;
+	}
+	
+		/*--------------------- mypage-------------------------------- */
+	
+	#mypage{
+		position: absolute;
+		z-index: 9;
+		left: 90%;
+		top: 5%;
+		width: 200px;
+		height: 40px;
+	}
+	
+	#mypage a{
+		width: 40px;
+		height: 50px;
+		
+	}
+	
+	#mypage a img{
+		color:#FFE6E6;	
+		opacity: 0.9; 
+	}
+	
+	#mylist{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100px;
+		height: 130px;
+		border-collapse: collapse;
+		
+	}
+	
+	#mylist table{
+		position: absolute;
+		left: 50px;
+		top: 50px;
+		width: 120px;
+		height: 70px;
+		background-color: #FFE6E6;
+		border-radius: 5px;
+		font-size: 12px;  
+		line-height: 20px;
+		text-align: center;
+	}
+	
+	#mylist table tr{
+		border-bottom: 2px solid;
+	}
+	
+		/*---------------------------- logo-------------------------- */
+	#logo{
+		position: absolute;
+		left: 50%;
+		transform:translate(-50%,0%);
+		line-height: 30px;
+		top: 120px;
+		text-transform: uppercase;
+		width: 700px;
+	}
+	
+	#logo ul{
+		width: 100%;
+	}
+	#logo ul li{
+		display: inline;
+		font-size: 90px;
+		font-weight: 700;
+	}
+	
+	#logo span{
+		position: absolute;
+		left: 50%;
+		transform:translate(-50%,0%);
+		font-size: 30px;
+		color: #a0a0a0;
+	}
+	
+		/* ----------------title ------------------------- */
+	
+	
+	
+	#nav ul{
+		position: absolute;
+		left: 50%;
+		transform:translate(-50%,0%);
+		width:700px;
+		top: 300px;
+		font-size: 20px;
+	}
+	#nav ul li{
+		display: inline;
+		padding: 20px;
+		color: #ffffff;
+	}
+	
+	
+	#nav ul li a{
+		
+	}
+		/* -----------------------title sub ------------------- */
+	#nav2{
+		font-size: 16px;
+		position: absolute;
+		left: 50%;
+		transform:translate(-50%,0%);
+		top: 350px;
+		width: 900px;
+		text-align: center;
+	}
+	 
+	#nav2 ul li{
+		display: inline;
+		padding: 20px;
+		
+		
+	}
+	
+	
+	/* -------------------main------------------------- */
+	#main{
+		position: absolute;
+		width: 100%;
+		height: 400px;		
+		top:400px;
+		padding: 0;
+		margin: 0;
+		font-size: 14px;
+	}
+	
+	#line{
+		width: 100%;
+		background-color: #FF0058;
+		height: 7px;
+	}
+	
+	#content2{
+		width:100%;		
+		height: auto;
+	}
+	
+
+	/*-------------------foot----------------------  */
+	
+	.main-block{
+		background-color: white;
+		width: 100%;
+		height: 150px;
+	}
+	
+	#foot{
+		width: 100%;
+		height: 70px;
+		background-color: #FF0058;
+		/* opacity:0.6; */
+		padding: 0;
+		margin: 0;
+	}
+	
+	#content4{
+		position: absolute;
+		left: 50%; 
+		transform:translate(-50%, 0%);
+		width: 80%;
+		height: 45px;
+		text-transform: uppercase;
+		text-align: center;
+		color: white;
+		line-height: 5px;
+		margin-top: 10px;
+		
+	}
+	
+	
+

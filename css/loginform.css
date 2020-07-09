@@ -1,0 +1,424 @@
+@charset "UTF-8";
+
+/* ----------------------------all ------------------------ */
+body{
+	
+	margin: 0;
+	padding: 0;
+	font-family: 'Arimo', sans-serif; 
+}
+
+ul{
+	list-style: none;
+}
+
+
+/* ----------------------------back -------------------------- */
+
+#back3{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+}
+
+#back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#back img {
+	
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+#back2 {
+		position: absolute;
+		left: 50%; top: 50%;
+		transform:translate(-50%,-50%);
+		width: 780px;
+		height: 450px;
+		background-color: black;
+		opacity: 0.6;
+		z-index: 3;
+	}
+	
+	
+/* --------------------------------form ------------------------------  */
+
+	#frm{
+	
+		position: absolute;
+		left: 50%; top: 50%;
+		transform:translate(-50%,-50%);
+		
+		width: 780px;
+		height: 450px;
+		z-index: 9;
+	}
+	
+	#frm a{
+		text-decoration: none;
+	}
+	
+/* -----------------------content -------------------------------- */	
+	
+	#content{
+		width: 100%;
+		height: 100%
+	}
+	#content table{
+		width: 100%;
+		height: 100%;
+	}
+	
+	#t1{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+	
+	#t1-1{
+		width: 50%;
+		/* border: 5px solid;  */
+		
+	}
+	
+	#t1-2{
+		width: 50%;
+		
+		vertical-align:bottom;
+		/* border: 5px solid; */
+	}
+	
+	#t2{
+		height: 48%;
+		vertical-align:top;
+	}
+	
+	#t2-2 div{
+		display: inline;
+	}
+	/* ------------------------- logo ------------------------------*/
+	#logo{
+		width: 330px;
+		height: 130px;
+		margin-left: 9%;
+		margin-right: 9%;
+	}
+	
+	#logo ul{
+		margin: 0;
+		padding: 0;
+		line-height: 60px;
+	}
+	
+	#logo ul li{
+		font-size: 80px;
+		font-weight: 800;
+		text-align: left;
+	}
+	
+	/* -----------------text ---------------------------------- */
+	
+	input[type=text],input[type=password],select{
+	   width:90%;
+	   height: 100%;
+	   border:2px solid #aaa;
+	   border-radius:6px;
+	   margin:8px 0;
+	   outline:none;
+	   padding:8px;
+	   box-sizing:border-box;
+	   transition: .3s;
+	   
+	}
+
+	input[type=text]:focus,input[type=password]:focus{
+	   border-color : dodgerBlue;
+	   box-shadow:0 0 8px 0 dodgerBlue;
+	}
+	
+	#link{
+		font-size: 16px;	
+		color: #289AFF;
+	}
+	
+	
+	
+	/* ------------------------btn---------------------------- */
+	#btn_lo{
+		position: absolute;
+		top: 53%;
+		right:	5%;
+		width: 90px;
+		height: 42px;
+		color: #F4FFFF;
+		background-color: #289AFF;
+		border-radius: 5px;
+		font-weight: 1000;
+		border: 0;
+	}
+	
+	
+	/*---------------------------receive--------------------------  */
+	
+	#t2-r{
+		height: 36%;
+		vertical-align:top;
+	}
+	
+	.btn-r{
+		width: 90px;
+		height: 42px;
+		color: #F4FFFF;
+		background-color: #289AFF;
+		border: 0;
+		border-radius: 5px;
+		font-weight: 1000;
+	}
+	
+	#btn_re1{
+		position: absolute;
+		top: 65%;
+		right:	5%;
+	}
+	
+	#btn_re2{
+		position: absolute;
+		top: 65%;
+		right:	18%;
+	}
+
+	/* --------------------pwfind----------------------------- */
+	
+	#t2-pwf{
+		height: 25%;
+		vertical-align:top;
+	}
+
+	.btn-pwf{
+		width: 90px;
+		height: 42px;
+		color: #F4FFFF;
+		background-color: #289AFF;
+		border: 0;
+		border-radius: 5px;
+		font-weight: 1000;
+	}
+
+	#btn_fi1{
+		position: absolute;
+		top: 76%;
+		right:	5%;
+	}
+
+	#btn_fi2{
+		position: absolute;
+		top: 76%;
+		right:	18%;
+	}
+
+
+	/* -----------------------------logincheck------------------------ */
+	
+	#t2-ch{
+		height: 30%;
+		vertical-align:top;
+	}
+	
+
+	.btn-ch{
+		width: 90px;
+		height: 42px;
+		color: #F4FFFF;
+		background-color: #289AFF;
+		border: 0;
+		border-radius: 5px;
+		font-weight: 900;
+		font-weight: 1000;
+	}
+	
+	#t2-ch2 div{
+	
+	}
+	#btn_ch3{
+		position: absolute;
+		right: 5%
+	}
+
+
+	#btn_ch4{
+		position: absolute;
+		right: 18%;
+	}
+
+	#rnd-t{
+		position: absolute;
+		z-index: 5;
+		top: 70px;
+		left: 390px;
+		font-size: 15px;
+		color:white;
+		border-radius: 5px; 
+	}
+	
+	.sendrd{
+		width: 90px;
+		height: 42px;
+		color: #F4FFFF;
+		background-color: #289AFF;
+		border: 0;
+		border-radius: 5px;
+		font-weight: 900;
+		font-weight: 1000;
+		margin-left: 10%;
+		
+	}
+
+
+
+	/* ------------------- loginok ------------------------- */
+	
+	#t2-ok{
+		height: 48%;
+		vertical-align:top;
+	}
+
+	#btn_ok{
+		width: 90px;
+		height: 42px;
+		color: #F4FFFF;
+		background-color: #289AFF;
+		border: 0;
+		border-radius: 5px;
+		font-weight: 900;
+		font-weight: 1000;
+		
+		position: absolute;
+		top: 53%;
+		right:	5%;
+	}
+
+
+	/* ------------------------loginokpw ------------------------ */
+	
+	#t2-okpw{
+		height: 48%;
+		vertical-align:top;
+	}
+	
+	#btn_pw{
+		width: 90px;
+		height: 42px;
+		color: #F4FFFF;
+		background-color: #289AFF;
+		border: 0;
+		border-radius: 5px;
+		font-weight: 900;
+		font-weight: 1000;
+		
+		position: absolute;
+		top: 53%;
+		right:	5%;
+	}
+
+
+	/* -------------------------loginpwfindck --------------------  */
+
+	#t2-pwfick{
+		height: 60%;
+		vertical-align:top;
+	}
+
+	.btn-pwfick{
+		width: 90px;
+		height: 42px;
+		color: #F4FFFF;
+		background-color: #289AFF;
+		border: 0;
+		border-radius: 5px;
+		font-weight: 900;
+		font-weight: 1000;
+	}
+	
+	
+	#btn_ch1{
+		position: absolute;
+		top: 41%;
+		right:	5%;
+	}
+	
+	#btn_ch2{
+		position: absolute;
+		top: 41%;
+		right:	18%;
+	}
+
+
+
+	/* -----------------------loginpwreceive ---------------------------  */
+
+
+	#t2-pwre{
+		height: 48%;
+		vertical-align:top;
+	}
+	
+	.btn-pwre{
+		width: 90px;
+		height: 42px;
+		color: #F4FFFF;
+		background-color: #289AFF;
+		border: 0;
+		border-radius: 5px;
+		font-weight: 900;
+		font-weight: 1000;
+	}
+	
+	#btn_pw3{
+		position: absolute;
+		top: 53%;
+		right:	5%;
+	}
+	
+	#btn_pw4{
+		position: absolute;
+		top: 53%;
+		right:	18%;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+

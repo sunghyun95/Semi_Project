@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@media all and (min-width: 769px) {
+	
+	/* ----------------------전체------------------------------------   */
+	body{
+		margin: 0;
+		padding: 0;
+		font-family: 'Arimo', sans-serif; 
+	}	
+	
+	ul li{
+		list-style: none;
+	}
+
+	a{
+		text-decoration: none;
+	}
+	
+	/*--------------------- content2 ----------------------------------*/
+	#slide{
+		width: 100%;
+		height: 400px;
+		overflow: hidden;
+	}	
+		
+	#slide img{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 400px;
+	}
+	
+	/*-------------------------- con ---------------------------------*/
+	
+	#con{
+		width: 100%;
+		height: 400px;
+		background-color: #FFE6E6;
+		/* border: 1px solid; */
+	}
+	
+	#con tr td{
+		/* border: 1px solid; */
+		font-size: 12px;
+		text-align: left;
+	}
+	
+	#con tr td h2{
+		font-weight: 600;
+		color: #F08080;
+	}
+	
+	#con tr th{
+		width: 60%;
+	}
+	#con tr td hr{
+		border-top: 3px double #F08080;
+	}
+	
+	.conlist ul li{
+		font-size: 18px;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
